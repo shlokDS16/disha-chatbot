@@ -1,0 +1,26 @@
+{
+  "en": [
+    {"id": "what_is_sickle", "text": "What is sickle cell disease?"},
+    {"id": "am_i_carrier", "text": "How do I know if I'm a carrier?"},
+    {"id": "planning_pregnancy", "text": "We're planning a pregnancy — what should we do?"},
+    {"id": "nearest_hplc", "text": "Where is the nearest HPLC test centre?"},
+    {"id": "explain_report", "text": "Can you explain my blood report?"},
+    {"id": "crisis_pain", "text": "My child is in pain — what do I do?"}
+  ],
+  "hi": [
+    {"id": "what_is_sickle", "text": "सिकल सेल रोग क्या है?"},
+    {"id": "am_i_carrier", "text": "मुझे कैसे पता चलेगा कि मैं वाहक हूँ?"},
+    {"id": "planning_pregnancy", "text": "हम गर्भावस्था की योजना बना रहे हैं — हमें क्या करना चाहिए?"},
+    {"id": "nearest_hplc", "text": "सबसे नजदीकी HPLC जाँच केंद्र कहाँ है?"},
+    {"id": "explain_report", "text": "क्या आप मेरी रक्त रिपोर्ट समझा सकते हैं?"},
+    {"id": "crisis_pain", "text": "मेरे बच्चे को दर्द हो रहा है — मैं क्या करूँ?"}
+  ],
+  "mr": [
+    {"id": "what_is_sickle", "text": "सिकल सेल आजार म्हणजे काय?"},
+    {"id": "am_i_carrier", "text": "मी वाहक आहे की नाही हे कसे समजेल?"},
+    {"id": "planning_pregnancy", "text": "आम्ही गर्भधारणेची योजना करत आहोत — आम्ही काय करावे?"},
+    {"id": "nearest_hplc", "text": "जवळचे HPLC तपासणी केंद्र कुठे आहे?"},
+    {"id": "explain_report", "text": "तुम्ही माझा रक्त अहवाल समजावून सांगू शकता का?"},
+    {"id": "crisis_pain", "text": "माझ्या मुलाला वेदना होत आहेत — मी काय करू?"}
+  ]
+}

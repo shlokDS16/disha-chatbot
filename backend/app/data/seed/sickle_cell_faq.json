@@ -1,0 +1,203 @@
+{
+  "disease": "sickle_cell",
+  "chunks": [
+    {
+      "text": "Sickle cell disease is an inherited blood disorder. In people with SCD, red blood cells become crescent-shaped and sticky, blocking blood flow and causing pain, fatigue, and infections. It is common in tribal communities of central India, including parts of Maharashtra.",
+      "metadata": {
+        "audience": ["asha", "patient", "couple"],
+        "scenario": "introduction",
+        "topic": "overview",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "सिकल सेल रोग एक अनुवांशिक रक्त विकार है। इसमें लाल रक्त कोशिकाएँ अर्धचंद्राकार और चिपचिपी हो जाती हैं, जिससे रक्त प्रवाह रुकता है और दर्द, थकान और संक्रमण होता है। यह मध्य भारत के आदिवासी समुदायों में आम है।",
+      "metadata": {
+        "audience": ["asha", "patient", "couple"],
+        "scenario": "introduction",
+        "topic": "overview",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "सिकल सेल आजार हा अनुवांशिक रक्त विकार आहे. यात लाल रक्तपेशी चंद्रकोरीसारख्या व चिकट होतात, ज्यामुळे रक्तप्रवाह अडतो आणि वेदना, थकवा व संसर्ग होतात. हा मध्य भारतातील आदिवासी समुदायांत सामान्य आहे.",
+      "metadata": {
+        "audience": ["asha", "patient", "couple"],
+        "scenario": "introduction",
+        "topic": "overview",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "A carrier (sickle cell trait, HbAS) has one normal gene and one sickle gene. Carriers are usually healthy and do not develop sickle cell disease. However, if both parents are carriers, each child has a 25% chance of having sickle cell disease.",
+      "metadata": {
+        "audience": ["asha", "couple", "patient"],
+        "scenario": "inheritance",
+        "topic": "carrier_vs_disease",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "वाहक (सिकल सेल ट्रेट, HbAS) में एक सामान्य और एक सिकल जीन होता है। वाहक आमतौर पर स्वस्थ रहते हैं। यदि माता-पिता दोनों वाहक हैं, तो हर बच्चे को 25% संभावना है कि उसे सिकल सेल रोग होगा।",
+      "metadata": {
+        "audience": ["asha", "couple", "patient"],
+        "scenario": "inheritance",
+        "topic": "carrier_vs_disease",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "वाहक (सिकल सेल ट्रेट, HbAS) मध्ये एक सामान्य व एक सिकल जनुक असते. वाहक सहसा निरोगी असतात. दोन्ही पालक वाहक असल्यास, प्रत्येक मुलाला सिकल सेल आजार होण्याची 25% शक्यता असते.",
+      "metadata": {
+        "audience": ["asha", "couple", "patient"],
+        "scenario": "inheritance",
+        "topic": "carrier_vs_disease",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "The definitive test for sickle cell is Hb HPLC (high-performance liquid chromatography) or hemoglobin electrophoresis. A simple solubility test can screen for HbS but cannot tell carriers from patients. In Maharashtra, most district hospitals and large PHCs offer HPLC testing free under the National Sickle Cell Mission.",
+      "metadata": {
+        "audience": ["asha", "couple", "doctor"],
+        "scenario": "testing",
+        "topic": "diagnosis",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "सिकल सेल की पक्की जाँच Hb HPLC या हीमोग्लोबिन इलेक्ट्रोफोरेसिस है। घुलनशीलता परीक्षण से HbS का पता चलता है, लेकिन वाहक और रोगी में भेद नहीं कर पाता। महाराष्ट्र में अधिकांश जिला अस्पतालों में यह मुफ्त उपलब्ध है।",
+      "metadata": {
+        "audience": ["asha", "couple", "doctor"],
+        "scenario": "testing",
+        "topic": "diagnosis",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "सिकल सेलची निश्चित तपासणी Hb HPLC किंवा हिमोग्लोबिन इलेक्ट्रोफोरेसिस आहे. विद्राव्यता चाचणीत HbS दिसतो पण वाहक व रुग्ण यांत फरक कळत नाही. महाराष्ट्रात बहुतेक जिल्हा रुग्णालयांत ही तपासणी मोफत उपलब्ध आहे.",
+      "metadata": {
+        "audience": ["asha", "couple", "doctor"],
+        "scenario": "testing",
+        "topic": "diagnosis",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "Couples where both partners are sickle cell carriers should consider prenatal testing. Chorionic villus sampling (CVS) at 10-13 weeks or amniocentesis at 16-20 weeks can determine if the baby has sickle cell disease. These tests are available at select tertiary centres like KEM Mumbai and Sassoon Hospital Pune.",
+      "metadata": {
+        "audience": ["couple", "doctor"],
+        "scenario": "pregnancy_planning",
+        "topic": "prenatal_testing",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "जिन दंपत्ति दोनों सिकल वाहक हैं, उन्हें गर्भावस्था में जाँच करानी चाहिए। 10-13 सप्ताह में CVS या 16-20 सप्ताह में अम्नियोसेंटेसिस से पता चलता है कि शिशु को सिकल सेल रोग है या नहीं। KEM मुंबई, ससून पुणे जैसे केंद्रों पर यह उपलब्ध है।",
+      "metadata": {
+        "audience": ["couple", "doctor"],
+        "scenario": "pregnancy_planning",
+        "topic": "prenatal_testing",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "जोडप्यातील दोघेही सिकल वाहक असल्यास गर्भावस्थेत तपासणी करावी. 10-13 आठवड्यांत CVS किंवा 16-20 आठवड्यांत अम्नियोसेंटेसिसने बाळाला सिकल सेल आजार आहे की नाही समजते. KEM मुंबई, ससून पुणे येथे ही सुविधा उपलब्ध आहे.",
+      "metadata": {
+        "audience": ["couple", "doctor"],
+        "scenario": "pregnancy_planning",
+        "topic": "prenatal_testing",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "Daily hydroxyurea (HU) reduces pain crises, acute chest syndrome, and hospital admissions in people with sickle cell disease. It is safe for adults and children above 9 months, under a doctor's supervision. HU is free under the National Sickle Cell Mission at designated centres.",
+      "metadata": {
+        "audience": ["patient", "doctor", "asha"],
+        "scenario": "treatment",
+        "topic": "hydroxyurea",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "रोज़ाना हाइड्रोक्सीयूरिया (HU) लेने से दर्द के दौरे, फेफड़ों की समस्या और अस्पताल में भर्ती कम होते हैं। यह वयस्कों और 9 महीने से ऊपर के बच्चों के लिए डॉक्टर की देखरेख में सुरक्षित है। यह निर्दिष्ट केंद्रों पर मुफ्त है।",
+      "metadata": {
+        "audience": ["patient", "doctor", "asha"],
+        "scenario": "treatment",
+        "topic": "hydroxyurea",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "दररोज हायड्रॉक्सीयुरिया (HU) घेतल्याने वेदनांचे झटके, फुफ्फुसाचे त्रास व रुग्णालय भरती कमी होते. हे प्रौढांसाठी व 9 महिन्यांपेक्षा मोठ्या मुलांसाठी डॉक्टरांच्या देखरेखीत सुरक्षित आहे. नेमलेल्या केंद्रांवर मोफत मिळते.",
+      "metadata": {
+        "audience": ["patient", "doctor", "asha"],
+        "scenario": "treatment",
+        "topic": "hydroxyurea",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "Warning signs that need emergency care: severe pain not relieved by home measures, fever above 39°C (102°F), chest pain or trouble breathing, sudden weakness or trouble speaking (stroke signs), painful erection lasting over 4 hours, severe headache, or sudden swelling of hands/feet. Call 108 or go to the nearest hospital immediately.",
+      "metadata": {
+        "audience": ["patient", "asha", "couple"],
+        "scenario": "crisis",
+        "topic": "red_flags",
+        "language": "en",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "आपातकालीन लक्षण: घरेलू उपचार से आराम न मिलने वाला तेज दर्द, 39°C (102°F) से अधिक बुखार, सीने में दर्द या साँस की तकलीफ, अचानक कमजोरी या बोलने में परेशानी (लकवा), 4 घंटे से अधिक दर्दनाक स्तंभन, तेज सिरदर्द, या हाथ-पैर की अचानक सूजन। 108 पर कॉल करें या अस्पताल जाएँ।",
+      "metadata": {
+        "audience": ["patient", "asha", "couple"],
+        "scenario": "crisis",
+        "topic": "red_flags",
+        "language": "hi",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "आणीबाणीची लक्षणे: घरगुती उपायांनी न थांबणारी तीव्र वेदना, 39°C (102°F) हून अधिक ताप, छातीत दुखणे किंवा श्वास त्रास, अचानक अशक्तपणा किंवा बोलण्यात अडचण (पक्षाघात), 4 तासांहून अधिक वेदनादायक ताठरपणा, तीव्र डोकेदुखी, किंवा हात-पायांना अचानक सूज. 108 वर कॉल करा किंवा हॉस्पिटलला जा.",
+      "metadata": {
+        "audience": ["patient", "asha", "couple"],
+        "scenario": "crisis",
+        "topic": "red_flags",
+        "language": "mr",
+        "source": "curated",
+        "confidence": 1.0
+      }
+    }
+  ]
+}

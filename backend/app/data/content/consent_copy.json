@@ -1,0 +1,35 @@
+{
+  "en": {
+    "title": "A quick note about your privacy",
+    "body": "Disha talks to you about sickle cell. To help you, we may store your chat and uploaded reports on this device. We will never share your identity. You can delete everything at any time.",
+    "scopes": {
+      "store_session": "Keep my chat and files to help me later",
+      "auto_rag_enrich": "Let Disha learn from new questions to help others",
+      "voice_playback": "Play answers back to me in voice"
+    },
+    "accept": "I agree",
+    "decline": "Not now"
+  },
+  "hi": {
+    "title": "आपकी गोपनीयता के बारे में एक बात",
+    "body": "दिशा आपसे सिकल सेल पर बात करती है। मदद के लिए हम आपकी बातचीत और रिपोर्ट इस डिवाइस पर रख सकते हैं। हम आपकी पहचान कभी साझा नहीं करेंगे। आप कभी भी सब कुछ मिटा सकते हैं।",
+    "scopes": {
+      "store_session": "मेरी बातचीत और फाइलें मेरी मदद के लिए रखें",
+      "auto_rag_enrich": "दिशा को नए सवालों से सीखने दें ताकि दूसरों की मदद हो",
+      "voice_playback": "मुझे आवाज़ में जवाब सुनाएँ"
+    },
+    "accept": "मैं सहमत हूँ",
+    "decline": "अभी नहीं"
+  },
+  "mr": {
+    "title": "तुमच्या गोपनीयतेबद्दल एक नोंद",
+    "body": "दिशा तुमच्याशी सिकल सेलबद्दल बोलते. मदतीसाठी आम्ही तुमची चर्चा व अहवाल या उपकरणावर ठेवू शकतो. तुमची ओळख आम्ही कधीही सामायिक करणार नाही. तुम्ही कधीही सर्व काही हटवू शकता.",
+    "scopes": {
+      "store_session": "माझी चर्चा व फायली माझ्या मदतीसाठी ठेवा",
+      "auto_rag_enrich": "दिशाला नवीन प्रश्नांतून शिकू द्या जेणेकरून इतरांना मदत होईल",
+      "voice_playback": "मला उत्तरे आवाजात ऐकवा"
+    },
+    "accept": "मी सहमत आहे",
+    "decline": "आत्ता नाही"
+  }
+}

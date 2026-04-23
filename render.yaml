@@ -1,0 +1,83 @@
+# Render Blueprint — deploys the FastAPI backend as a free web service.
+# https://render.com/docs/blueprint-spec
+#
+# How this is used:
+#   1. In the Render dashboard → "New +" → "Blueprint" → connect this repo.
+#   2. Render reads this file, provisions the service, then prompts for
+#      the secret env vars below (sync: false means "user fills in later").
+#   3. After deploy, copy the service URL (e.g. https://disha-backend.onrender.com)
+#      into Vercel as VITE_API_URL, and back into Render as FRONTEND_ORIGIN.
+
+services:
+  - type: web
+    name: disha-backend
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+    envVars:
+      # ── App config (safe defaults) ─────────────────────
+      - key: APP_ENV
+        value: production
+      - key: APP_HOST
+        value: 0.0.0.0
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+      # ── CORS — set this to your Vercel URL after first deploy ─────
+      - key: FRONTEND_ORIGIN
+        sync: false
+
+      # ── LLM (Groq) ─────────────────────────────────────
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL_PRIMARY
+        value: llama-3.3-70b-versatile
+      - key: GROQ_MODEL_FAST
+        value: llama-3.1-8b-instant
+
+      # ── Vector DB (Qdrant Cloud) ───────────────────────
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: QDRANT_COLLECTION
+        value: disha_knowledge
+
+      # ── Embeddings + Reranker (HuggingFace Inference) ──
+      - key: HF_API_KEY
+        sync: false
+      - key: HF_EMBEDDING_MODEL
+        value: BAAI/bge-m3
+      - key: HF_RERANKER_MODEL
+        value: BAAI/bge-reranker-v2-m3
+
+      # ── OCR (OCR.space) ────────────────────────────────
+      - key: OCR_SPACE_API_KEY
+        sync: false
+      - key: OCR_SPACE_ENDPOINT
+        value: https://api.ocr.space/parse/image
+
+      # ── Maps (Google Places) ───────────────────────────
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+
+      # ── Admin ──────────────────────────────────────────
+      - key: ADMIN_KEY
+        sync: false
+
+      # ── RAG thresholds ─────────────────────────────────
+      - key: RAG_MATCH_THRESHOLD
+        value: "0.78"
+      - key: RAG_CONTEXT_THRESHOLD
+        value: "0.62"
+      - key: AUTO_ENRICH_MIN_ANSWER_LEN
+        value: "50"
+      - key: MAX_FILE_SIZE_MB
+        value: "10"

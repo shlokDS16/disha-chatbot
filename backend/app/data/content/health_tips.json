@@ -1,0 +1,83 @@
+{
+  "en": [
+    {
+      "id": "hydration",
+      "title": "Drink plenty of water",
+      "body": "Staying well-hydrated helps prevent sickle cell pain crises. Aim for 8–10 glasses a day, more in heat or when active."
+    },
+    {
+      "id": "folic_acid",
+      "title": "Take folic acid daily",
+      "body": "Folic acid helps your body make new red blood cells. A daily 5 mg tablet is commonly recommended — ask your doctor."
+    },
+    {
+      "id": "avoid_cold",
+      "title": "Avoid sudden cold",
+      "body": "Cold temperatures can trigger pain episodes. Dress warmly, and avoid sudden changes like jumping into cold water."
+    },
+    {
+      "id": "pregnancy_counselling",
+      "title": "Plan pregnancy with counselling",
+      "body": "If you or your partner carries the sickle trait, speak to a genetic counsellor before conceiving."
+    },
+    {
+      "id": "vaccines",
+      "title": "Keep vaccinations up to date",
+      "body": "People with sickle cell disease have higher infection risk. Pneumonia and flu vaccines are especially important."
+    }
+  ],
+  "hi": [
+    {
+      "id": "hydration",
+      "title": "पर्याप्त पानी पियें",
+      "body": "पर्याप्त पानी पीने से सिकल सेल दर्द से बचा जा सकता है। रोज़ 8–10 गिलास, गर्मी या मेहनत के समय अधिक।"
+    },
+    {
+      "id": "folic_acid",
+      "title": "रोज़ फोलिक एसिड लें",
+      "body": "फोलिक एसिड नयी रक्त कोशिकाएँ बनाने में मदद करता है। रोज़ 5 mg की गोली लेना सामान्य है — डॉक्टर से पूछें।"
+    },
+    {
+      "id": "avoid_cold",
+      "title": "अचानक ठंड से बचें",
+      "body": "ठंड से दर्द का दौरा हो सकता है। गर्म कपड़े पहनें, ठंडे पानी में अचानक न कूदें।"
+    },
+    {
+      "id": "pregnancy_counselling",
+      "title": "गर्भावस्था से पहले सलाह लें",
+      "body": "यदि आप या आपका साथी सिकल वाहक हैं, तो गर्भधारण से पहले आनुवंशिक सलाहकार से मिलें।"
+    },
+    {
+      "id": "vaccines",
+      "title": "टीकाकरण पूरा रखें",
+      "body": "सिकल सेल वाले लोगों में संक्रमण का जोखिम अधिक होता है। निमोनिया और फ्लू के टीके ज़रूरी हैं।"
+    }
+  ],
+  "mr": [
+    {
+      "id": "hydration",
+      "title": "भरपूर पाणी प्या",
+      "body": "योग्य प्रमाणात पाणी पिणे सिकल सेल वेदनांपासून वाचवते. दररोज 8–10 ग्लास, उन्हात किंवा श्रमात अधिक."
+    },
+    {
+      "id": "folic_acid",
+      "title": "दररोज फोलिक अ‍ॅसिड घ्या",
+      "body": "फोलिक अ‍ॅसिड नवीन रक्तपेशी तयार करण्यास मदत करते. दररोज 5 mg गोळी सामान्य आहे — डॉक्टरांना विचारा."
+    },
+    {
+      "id": "avoid_cold",
+      "title": "अचानक थंडी टाळा",
+      "body": "थंडीमुळे वेदनांचा झटका येऊ शकतो. उबदार कपडे घाला, थंड पाण्यात अचानक उडी मारू नका."
+    },
+    {
+      "id": "pregnancy_counselling",
+      "title": "गर्भधारणेपूर्वी सल्ला घ्या",
+      "body": "तुम्ही किंवा तुमचा जोडीदार सिकल वाहक असाल, तर गर्भधारणेपूर्वी अनुवंशिक सल्लागाराला भेटा."
+    },
+    {
+      "id": "vaccines",
+      "title": "लसीकरण पूर्ण ठेवा",
+      "body": "सिकल सेल असलेल्यांना संसर्गाचा धोका जास्त असतो. न्यूमोनिया व फ्लू लस विशेष महत्त्वाची आहे."
+    }
+  ]
+}

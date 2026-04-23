@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    font-feature-settings: "cv11", "ss01";
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(255, 153, 51, 0.10), transparent 60%),
+      radial-gradient(1000px 500px at 110% 110%, rgba(19, 136, 8, 0.08), transparent 60%),
+      #fffdf8;
+    color: #1c1917;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .dark body {
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(240, 110, 34, 0.10), transparent 60%),
+      radial-gradient(1000px 500px at 110% 110%, rgba(19, 136, 8, 0.08), transparent 60%),
+      #0b1220;
+    color: #e2e8f0;
+  }
+
+  :lang(hi),
+  :lang(mr) {
+    font-family: "Noto Sans Devanagari", "Inter", system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-all duration-150 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-primary {
+    @apply btn bg-disha-600 text-white shadow-soft hover:bg-disha-700 dark:bg-disha-500 dark:hover:bg-disha-600;
+  }
+  .btn-ghost {
+    @apply btn text-ink-soft hover:bg-paper-muted dark:text-slate-300 dark:hover:bg-slate-800;
+  }
+  .btn-outline {
+    @apply btn border border-ink/10 bg-white hover:bg-paper-warm dark:border-white/10 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200;
+  }
+  .card {
+    @apply rounded-3xl bg-white/80 backdrop-blur-sm border border-ink/5 shadow-soft dark:bg-slate-800/80 dark:border-white/5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium bg-paper-muted text-ink-soft border border-ink/5 hover:bg-paper-warm transition dark:bg-slate-800 dark:text-slate-300 dark:border-white/10 dark:hover:bg-slate-700;
+  }
+  .input {
+    @apply w-full rounded-2xl border border-ink/10 bg-white px-4 py-3 text-[15px] placeholder:text-ink-muted focus:outline-none focus:ring-2 focus:ring-disha-400/40 focus:border-disha-400 transition dark:bg-slate-900 dark:border-white/10 dark:text-slate-100 dark:placeholder:text-slate-500;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(28, 25, 23, 0.2) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(28, 25, 23, 0.2);
+    border-radius: 999px;
+  }
+  .dark .scrollbar-thin {
+    scrollbar-color: rgba(226, 232, 240, 0.2) transparent;
+  }
+  .dark .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(226, 232, 240, 0.2);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #f6f1e7 0%, #fef9f0 50%, #f6f1e7 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+.dark .shimmer {
+  background: linear-gradient(90deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+  background-size: 800px 100%;
+}

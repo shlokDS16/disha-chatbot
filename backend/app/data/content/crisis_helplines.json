@@ -1,0 +1,13 @@
+{
+  "helplines": [
+    {"name": "National Health Helpline", "number": "1800-180-1104"},
+    {"name": "Ambulance (All India)", "number": "108"},
+    {"name": "Maharashtra Sickle Cell Helpline", "number": "104"},
+    {"name": "iCall Mental Health Support", "number": "9152987821"}
+  ],
+  "messages": {
+    "en": "If you are in medical crisis right now, please call one of these numbers. Do not wait.",
+    "hi": "यदि आप अभी चिकित्सा आपात स्थिति में हैं, तो कृपया इनमें से किसी नंबर पर कॉल करें। देर न करें।",
+    "mr": "जर तुम्ही आत्ता वैद्यकीय आणीबाणीत असाल, तर कृपया यापैकी कोणत्याही क्रमांकावर कॉल करा. थांबू नका."
+  }
+}
