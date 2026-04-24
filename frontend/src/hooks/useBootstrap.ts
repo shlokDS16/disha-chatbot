@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { api, hasSession, setSessionId } from "../api/client";
+import { ApiError, api, clearSessionId, hasSession, setSessionId } from "../api/client";
 import { useApp } from "../state/store";
 
 const LOC_CACHE = "disha.location";
@@ -22,14 +22,32 @@ export function useBootstrap() {
     if (started.current) return;
     started.current = true;
     void run();
+
+    // Fetches the session, self-healing from a stale localStorage id that
+    // the backend no longer knows about (e.g. Render free-tier restart wiped
+    // the ephemeral SQLite DB). On 404 we drop the dead id and start fresh.
+    async function fetchOrRecreateSession() {
+      if (!hasSession()) {
+        const r = await api.startSession(language);
+        setSessionId(r.session_id);
+      }
+      try {
+        return await api.getSession();
+      } catch (e) {
+        if (e instanceof ApiError && e.status === 404) {
+          clearSessionId();
+          const r = await api.startSession(language);
+          setSessionId(r.session_id);
+          return await api.getSession();
+        }
+        throw e;
+      }
+    }
+
     async function run() {
       try {
         setPhase("starting");
-        if (!hasSession()) {
-          const r = await api.startSession(language);
-          setSessionId(r.session_id);
-        }
-        const state = await api.getSession();
+        const state = await fetchOrRecreateSession();
         setSession(state);
         if (!state.consent.accepted) setPhase("consent");
         else if (!state.location) setPhase("locating");
